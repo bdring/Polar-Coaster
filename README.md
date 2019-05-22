@@ -14,6 +14,9 @@ I got a lot of requests to post the source files, so here they are. You should h
 - PCB
   - [Gerber Files](<https://github.com/bdring/Polar-Coaster/tree/master/pcb/gerber>)
   - [Source: Diptrace](<https://github.com/bdring/Polar-Coaster/tree/master/pcb/source>)
+- BOM (coming soon)
+  - PCB
+  - Mechanicals
 
 ### Firmware
 
@@ -52,6 +55,7 @@ You can stream gcode or you can put files on a micro SD card. If you name your f
 ### Issues.
 
 1. The PCB was designed to allow the use of both 0.9" and 1.0" pitch 19x2 pin ESP32 dev modules. The wider ones tend to have an overhanging antenna section that will interfere with on of the stepper drivers. 
+2. Hot Motors: Keep the current very low on the motors. If they get hot, the PLA could get damaged. I like to run TMC2130 drivers in stand alone mode. They are very quient and cool.
 
 
 
