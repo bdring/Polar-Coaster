@@ -4,24 +4,26 @@
 
 This is a pen plotter designed to draw things on round drink coasters. It was primarily designed as a simple demostration project of polar kinematics.
 
-I got al ot of requests to post the source files, so here they are. You should have a basic familiarity of how 3D printers or CNC machines work and a basic understanding of how to make gcode. I can only provide basic support via GitHub issues.
+I got a lot of requests to post the source files, so here they are. You should have a basic familiarity of how 3D printers or CNC machines work and a basic understanding of how to make gcode. I can only provide basic support via [GitHub issues](<https://github.com/bdring/Polar-Coaster/issues>).
 
 ### Source files
 
 - Mechanicals
-  - STL Files
-  - 3D STEP Assembly File
+  - [STL Files](<https://github.com/bdring/Polar-Coaster/tree/master/mechanics/stl>)
+  - [3D STEP Assembly File](<https://github.com/bdring/Polar-Coaster/tree/master/mechanics/source>)
 - PCB
-  - Gerber Files
-  - Source: Diptrace
+  - [Gerber Files](<https://github.com/bdring/Polar-Coaster/tree/master/pcb/gerber>)
+  - [Source: Diptrace](<https://github.com/bdring/Polar-Coaster/tree/master/pcb/source>)
 
 ### Firmware
 
-It currently uses a branch of the Grbl_ESP32 firmware.
+It currently uses a [branch of the Grbl_ESP32 firmware](<https://github.com/bdring/Grbl_Esp32/tree/Kinematic_Test>).
 
 
 
 ### Setup
+
+[Get some coasters from Amazon](https://www.amazon.com/dp/B01H0PO19S)
 
 After you have the frimware loaded use a serial termnial to setup the work coordinate system so the pen 0,0 is roughly near the middle and the pen is up by sending G10 L2 P0 X-43 Y-5. you only need to do this once.
 
