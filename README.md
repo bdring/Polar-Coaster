@@ -12,6 +12,7 @@ I got a lot of requests to post the source files, so here they are. You should h
   - [STL Files](<https://github.com/bdring/Polar-Coaster/tree/master/mechanics/stl>)
   - [3D STEP Assembly File](<https://github.com/bdring/Polar-Coaster/tree/master/mechanics/source>)
 - PCB
+  - [Schematic](https://github.com/bdring/Polar-Coaster/blob/master/pcb/schematic.pdf)
   - [Gerber Files](<https://github.com/bdring/Polar-Coaster/tree/master/pcb/gerber>)
   - [Source: Diptrace](<https://github.com/bdring/Polar-Coaster/tree/master/pcb/source>)
 - BOM ( [work in progress](https://docs.google.com/spreadsheets/d/1ZX7-w3RRlV4LFHbHOMovw8RLWblGm1u_bLe6--jveR4/edit?usp=sharing) )
