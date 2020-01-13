@@ -19,7 +19,7 @@ I got a lot of requests to post the source files, so here they are. You should h
 
 ### Firmware
 
-It currently uses a [branch of the Grbl_ESP32 firmware](<https://github.com/bdring/Grbl_Esp32/tree/Kinematic_Test>).
+It uses [Grbl_ESP32 firmware](<https://github.com/bdring/Grbl_Esp32>). In the config.h file, change #define CPU_MAP_TEST_DRIVE to **#define CPU_MAP_POLAR_COASTER** 
 
 
 
