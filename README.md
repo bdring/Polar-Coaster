@@ -19,8 +19,7 @@ I got a lot of requests to post the source files, so here they are. You should h
 
 ### Firmware
 
-It uses [Grbl_ESP32 firmware](<https://github.com/bdring/Grbl_Esp32>). In the config.h file, change #define CPU_MAP_TEST_DRIVE to **#define CPU_MAP_POLAR_COASTER** 
-
+It uses [Grbl_ESP32 firmware](<https://github.com/bdring/Grbl_Esp32>). Use [polar_coaster.h](https://github.com/bdring/Grbl_Esp32/blob/master/Grbl_Esp32/Machines/polar_coaster.h) as your machine definition file.
 
 
 ### Setup
