@@ -26,7 +26,7 @@ It uses [Grbl_ESP32 firmware](<https://github.com/bdring/Grbl_Esp32>). Use [pola
 
 [Get some coasters from Amazon](https://www.amazon.com/dp/B01H0PO19S)
 
-After you have the frimware loaded use a serial termnial to setup the work coordinate system so the pen 0,0 is roughly near the middle and the pen is up by sending G10 L2 P0 X-43 Y-5. you only need to do this once.
+After you have the frimware loaded use a serial termnial to setup the work coordinate system so the pen 0,0 is roughly near the middle and the pen is up by sending G10 L2 P0 X-43 Y0. you only need to do this once.
 
 **Centering (important for good quality plots)**
 
